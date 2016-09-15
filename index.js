@@ -3,9 +3,9 @@ var http = require('http')
 
 // Expect a SLACK_TOKEN environment variable
 
-firebaseStorage = require('botkit-storage-firebase')({firebase_uri: 'https://demobot.firebaseIO.com'})
+//firebaseStorage = require('botkit-storage-firebase')({firebase_uri: 'https://demobot.firebaseIO.com'})
 var controller = Botkit.slackbot({
-    storage: firebaseStorage
+  json_file_store: "./db"
 });
 
 
