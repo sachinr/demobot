@@ -1,5 +1,5 @@
-name: Dr Jekyll Demo Bot
-description: Dr Jekyll Demo Bot- Simple scriptable bot
+name: ChatRoBot
+description: A bot that loves to learn
 avatar: resources/magic-01.jpg
 slackscopes:
   - bot
